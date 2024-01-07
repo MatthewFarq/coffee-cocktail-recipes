@@ -1,7 +1,12 @@
 * body {
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     font-family: Inter;
     margin: 10px;
+    background-color: #FFFAF0;
 }
 
 p {
@@ -10,11 +15,21 @@ p {
     line-height: 20px;
 }
 
+.cocktail-container {
+    max-width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+}
+
 .cocktail-card {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 320px;
+    margin: .5rem;
     overflow: hidden;
     border-radius: 1rem;
     background: #FFF;
