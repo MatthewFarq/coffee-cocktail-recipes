@@ -1,12 +1,23 @@
 * body {
     box-sizing: border-box;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     font-family: Inter;
-    margin: 10px;
+    margin: 24px 16px 40px 16px;
     background-color: #FFFAF0;
+}
+
+h1 {
+    display: block;
+    font-family: 'Cormorant Handgloves';
+    font-size: 2rem;
+    line-height: 2.75rem;
+    color:#1D1D1D;
+    margin: 0 0 24px 0;
+    line-height: 20px;
 }
 
 p {
@@ -21,7 +32,6 @@ p {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    /* justify-content: space-around; */
 }
 
 .cocktail-card {
@@ -35,7 +45,7 @@ p {
     background: #FFF;
     box-shadow: 0px 1px 4px 0px rgba(29, 29, 29, 0.25);
     height: 237px;
-    transition: box-shadow 0.3s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out;
 }
 
 .cocktail-card .card-image {
@@ -76,3 +86,6 @@ p {
 .cocktail-card:hover img {
     transform: scale(1.1);
 }
+
+.cocktail-card:active {
+    box-shadow: 0px 1px 4px 0px rgba(29, 29, 29, 0.25);
