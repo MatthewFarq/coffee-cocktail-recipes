@@ -2,18 +2,17 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
     font-family: Inter;
-    margin: 24px 16px 40px 16px;
-    background-color: #FFFAF0;
+    margin: 64px 16px 40px 16px;
+    background: url('assets/background-image.jpg') center/cover no-repeat fixed;
 }
 
 h1 {
     display: block;
     font-family: 'DM Serif Display';
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 2.75rem;
     color:#251900;
     margin: 0 0 24px 0;
